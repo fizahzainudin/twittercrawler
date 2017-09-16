@@ -47,6 +47,8 @@ public class getHTMLDataAJAX {
 		Date DateBoundLower = calEnd.getTime();
 		
 		
+		System.out.println("Launch Robot");
+		
 		while (!DateBoundUpper.equals(endDAteStop)) {
 			
 			System.out.println("Upper:" + DateBoundUpper);
